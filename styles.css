@@ -1,0 +1,59 @@
+.calculator {
+  width: 400px;
+  margin: 200px auto;
+  border: #333 solid 2px;
+  padding: 20px 20px;
+}
+
+.input {
+  border: 1px solid #333;
+  height: 100px;
+  max-width: 100vw;
+  font-size: 30px;
+}
+
+.operators,
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operators div,
+.numbers div {
+  border: #333 solid 1px;
+  padding: 12px 24px;
+  font-size: 24px;
+  margin: 12px 12px;
+  width: 48px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.operators div {
+  background-color: grey;
+}
+
+.equal {
+  background-color: aqua;
+  margin: 0 auto;
+  width: 94%;
+  height: 50px;
+  border: #333 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.operators div,
+.numbers div,
+.equal:hover {
+  cursor: pointer;
+}
+
+.numbers div:hover {
+  background-color: #e6e6e6;
+}
+
+.operators div:hover {
+  background-color: #ffffff;
+}
